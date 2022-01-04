@@ -15,6 +15,7 @@ public class LogCall {
 
 private LogConcept logconcept;
 
+
 @Autowired
 public LogCall(LogConcept logconcepts) {
     System.out.println("Log Called in Aurowired constructor ");
